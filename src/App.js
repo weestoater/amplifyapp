@@ -1,6 +1,8 @@
 import {Header} from './components/global/Header';
 import {Footer} from './components/global/Footer';
 
+import {Welcome} from './components/Content/WelcomeCard';
+
 function App() {
 	return (
 		<>
@@ -9,15 +11,7 @@ function App() {
 				<div className="container-fluid">
 					<div className="row mt-4">
 						<div className="col-sm-3">
-							<div className="card">
-								<div className="card-header">Welcome</div>
-								<div className="card-body">
-									<p>
-										This is my little play pen for ReactJs
-										and AWS hobby projects.
-									</p>
-								</div>
-							</div>
+							<Welcome />
 						</div>
 					</div>
 				</div>
