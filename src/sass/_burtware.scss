@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    font-family: -apple-system,'Ubuntu', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+       'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #f5f5f5 url('../assets/img/dark-honeycomb.png') top left repeat;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  /*    header  */
+  .header-logo {
+    height: 2.5rem !important;
+    margin-right: 2rem !important;
+    border: 1px solid #eee;
+  }
+  /*    main body of the page   */
+
+  main {
+      display: block;
+      height: calc(100vh - 100px);
+  }
+
+  /*    footer      */
+  .footer {
+      display: block;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      color: whitesmoke !important;
+      padding-top: 1rem;
+      padding-bottom: .5rem;
+      font-size: .9rem;
+  }
