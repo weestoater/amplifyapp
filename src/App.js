@@ -1,23 +1,32 @@
+import React from 'react';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
 import {Header} from './components/global/Header';
 import {Footer} from './components/global/Footer';
 
-import {Welcome} from './components/Content/WelcomeCard';
+import {Home} from './components/Home/Home';
+import {About} from './components/About/About';
 
 function App() {
 	return (
-		<>
-			<Header site="burtware" />
-			<main>
-				<div className="container-fluid">
-					<div className="row mt-4">
-						<div className="col-sm-3">
-							<Welcome />
-						</div>
+		<Router>
+			<>
+				<Header site="burtware" />
+				<main>
+					<div className="container-fluid mt-4">
+						<Switch>
+							<Route exact path="/">
+								<Home />
+							</Route>
+							<Route path="/about">
+								<About />
+							</Route>
+						</Switch>
 					</div>
-				</div>
-			</main>
-			<Footer />
-		</>
+				</main>
+				<Footer />
+			</>
+		</Router>
 	);
 }
 
