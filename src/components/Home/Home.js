@@ -1,5 +1,5 @@
 import React from 'react';
-import {Welcome} from '../Content/WelcomeCard';
+import { Welcome } from './WelcomeCard';
 
 export function Home() {
 	return (
