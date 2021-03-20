@@ -28,7 +28,7 @@ export function About() {
 					</div>
 				</div>
 			</div>
-			<div className="col-sm-3">
+			{/* <div className="col-sm-3">
 				<div className="card mb-3">
 					<div className="card-header">
 						<h2 className="text-info">ReactJS</h2>
@@ -47,7 +47,7 @@ export function About() {
 						<p>asdasdasd</p>
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 }
