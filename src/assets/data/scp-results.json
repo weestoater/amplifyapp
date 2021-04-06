@@ -1,0 +1,44 @@
+[
+    {
+        "date": "20/03/2021",
+        "home": "Kilmarnock FC",
+        "away": "Motherwell FC",
+        "homeGoals": 4,
+        "awayGoals": 1
+    },
+    {
+        "date": "20/03/2021",
+        "home": "Hamilton FC",
+        "away": "St. Mirren FC",
+        "homeGoals": 1,
+        "awayGoals": 1
+    },
+    {
+        "date": "20/03/2021",
+        "home": "Livingston FC",
+        "away": "Hibernian FC",
+        "homeGoals": 1,
+        "awayGoals": 1
+    },
+    {
+        "date": "20/03/2021",
+        "home": "St. Johnstone FC",
+        "away": "Ross County FC",
+        "homeGoals": 1,
+        "awayGoals": 0
+    },
+    {
+        "date": "20/03/2021",
+        "home": "Dundee United FC",
+        "away": "Aberdeen FC",
+        "homeGoals": 1,
+        "awayGoals": 0
+    },
+    {
+        "date": "21/03/2021",
+        "home": "Celtic FC",
+        "away": "Rangers FC",
+        "homeGoals": 1,
+        "awayGoals": 1
+    }
+]
