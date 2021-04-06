@@ -3,7 +3,7 @@ import React from 'react';
 export function About() {
 	return (
 		<div className="row">
-			<div className="col-sm-3">
+			<div className="col-lg-3 col-md-6 col-sm-12">
 				<div className="card mb-3">
 					<div className="card-header">
 						<h2>

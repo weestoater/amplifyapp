@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/img/burt.png';
 
-export function Header(props) {
+export function Header(props: any) {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-primary">
 			<img src={logo} alt="" className="header-logo" />
