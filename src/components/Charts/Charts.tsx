@@ -15,7 +15,8 @@ function Charts() {
 					</p>
 					<p>
 						I'm going to try and do some experiments here with amCharts and ag-grid, though I may be limited
-						by licensing constraints on this site, as I will be using the free version.
+						by licensing constraints on this site, as I will be using thefree functionality, without any
+						licensing.
 					</p>
 				</div>
 			</div>
