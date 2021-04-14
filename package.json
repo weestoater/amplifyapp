@@ -35,7 +35,9 @@
 		"eject": "react-scripts eject",
 		"lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
 		"prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx)\"",
-		"format": "npm run prettier -- --write"
+		"format": "npm run prettier -- --write",
+		"cy:open": "cypress open",
+		"cy:run": "cypress run"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -56,10 +58,11 @@
 		]
 	},
 	"devDependencies": {
-		"browser-sync": "^2.26.14",
-		"browser-sync-webpack-plugin": "^2.3.0",
+		"@testing-library/cypress": "^7.0.5",
 		"@typescript-eslint/eslint-plugin": "^4.9.0",
 		"@typescript-eslint/parser": "^4.9.0",
-		"cypress": "^6.0.1"
+		"browser-sync": "^2.26.14",
+		"browser-sync-webpack-plugin": "^2.3.0",
+		"cypress": "^6.9.1"
 	}
 }
