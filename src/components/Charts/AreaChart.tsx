@@ -25,7 +25,7 @@ export function AreaChart() {
 
 	const series = chart.series.push(new am4charts.ColumnSeries());
 	series.name = 'Scored';
-	series.columns.template.tooltipText = '{name}: {valueY}';
+	series.columns.template.tooltipText = '{name}: {valueY}\n {venue} to {opposition}';
 	series.columns.template.fill = am4core.color('#090'); // fill
 	series.columns.template.opacity = 0.7;
 	series.dataFields.valueY = 'scored';
