@@ -7,6 +7,8 @@ import { Footer } from './components/global/Footer';
 import { Home } from './components/Home/Home';
 import { About } from './components/About/About';
 
+import { ChartsHomePage } from './components/Charts/Index';
+
 function App() {
 	return (
 		<Router>
@@ -20,6 +22,9 @@ function App() {
 							</Route>
 							<Route path="/about">
 								<About />
+							</Route>
+							<Route path="/charts">
+								<ChartsHomePage />
 							</Route>
 						</Switch>
 					</div>
