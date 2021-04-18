@@ -68,7 +68,15 @@ export function PieChart() {
 				<div className="card charts-card">
 					<div className="card-header">Pie Chart</div>
 					<div className="card-body">
-						<div id="piechart" />
+						{chart.data ? (
+							<div id="piechart" />
+						) : (
+							<p className="text-center text-info">
+								<i className="fa fa-4x fa-spin fa-spinner m-4 " />
+								<br />
+								Loading data...
+							</p>
+						)}
 					</div>
 				</div>
 			</div>
