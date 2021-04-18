@@ -34,6 +34,11 @@ export function Header(props: any) {
 							About
 						</Link>
 					</li>
+					<li className="nav-item">
+						<Link className="nav-link" to="/charts">
+							Charts
+						</Link>
+					</li>
 				</ul>
 			</div>
 		</nav>
