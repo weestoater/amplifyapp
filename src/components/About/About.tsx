@@ -1,6 +1,8 @@
 import React from 'react';
+import moment from 'moment';
 
 export function About() {
+	const thisYear = moment().format('YYYY');
 	return (
 		<div className="row">
 			<div className="col-md-6 col-sm-12">
@@ -25,6 +27,13 @@ export function About() {
 							</a>{' '}
 							course from <b>Kent C. Dodds</b>.
 						</p>
+					</div>
+					<div className="card-footer">
+						&copy; {thisYear} &middot; Except where otherwise noted, content on this site is licensed under a{' '}
+						<a href="http://creativecommons.org" target="_blank">
+							Creative Commons Attribution 4.0 International license
+						</a>
+						.
 					</div>
 				</div>
 			</div>

@@ -68,6 +68,7 @@ export function PieChart() {
 				<div className="card charts-card">
 					<div className="card-header">Pie Chart</div>
 					<div className="card-body">
+						<h2>Motherwell F.C. Goal Scorers</h2>
 						{chart.data ? (
 							<div id="piechart" />
 						) : (
