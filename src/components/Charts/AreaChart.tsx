@@ -45,10 +45,6 @@ export function AreaChart() {
 	// add legend
 	chart.legend = new am4charts.Legend();
 
-	//	tooltips
-	chart.tooltip.label.fontSize = 20;
-	chart.tooltip.label.textAlign = 'middle';
-
 	return (
 		<>
 			<div className="col-lg-6 col-md-12 mb-4">
