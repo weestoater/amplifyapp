@@ -236,5 +236,12 @@
         "date": "10/04/21",
         "opposition": "St. Mirren",
         "venue": "Home"
+    },
+    {
+        "scored": 1,
+        "conceded": 0,
+        "date": "21/04/21",
+        "opposition": "Hamilton Academical",
+        "venue": "Away"
     }
 ]
