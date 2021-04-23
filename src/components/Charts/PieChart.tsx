@@ -27,11 +27,11 @@ export function PieChart() {
 			goals: 5,
 		},
 		{
-			player: 'Jordan Robers',
-			goals: 3,
+			player: "Mark O'Hara",
+			goals: 4,
 		},
 		{
-			player: "Mark O'Hara",
+			player: 'Jordan Robers',
 			goals: 3,
 		},
 		{
