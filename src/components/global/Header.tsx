@@ -35,6 +35,11 @@ export function Header(props: any) {
 						</NavLink>
 					</li>
 					<li className="nav-item">
+						<NavLink className="nav-link" to="/cards" activeClassName="active">
+							Cards
+						</NavLink>
+					</li>
+					<li className="nav-item">
 						<NavLink className="nav-link" to="/charts" activeClassName="active">
 							Charts
 						</NavLink>
