@@ -6,7 +6,7 @@ type Person = {
 export const Cards = () => {
 	const names: Array<Person> = [
 		{ first: 'John', last: 'Lennon' },
-		{ first: 'Paul', last: 'Macartney' },
+		{ first: 'Paul', last: 'McCartney' },
 		{ first: 'George', last: 'Harrison' },
 		{ first: 'Ringo', last: 'Starr' },
 	];
