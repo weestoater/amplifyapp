@@ -6,12 +6,12 @@ import am4themes_material from '@amcharts/amcharts4/themes/material';
 
 import matchesData from './matches-data.json';
 
-export function AreaChart() {
+export const AreaChart = () => {
 	am4core.useTheme(am4themes_animated);
 	am4core.useTheme(am4themes_material);
 
 	const chart = am4core.create('areachart', am4charts.XYChart);
-	chart.colors.step = 2;
+	chart.colors.step = 1;
 
 	chart.data = matchesData;
 
@@ -40,7 +40,7 @@ export function AreaChart() {
 	series2.dataFields.categoryX = 'date';
 
 	// Add cursor
-	//	chart.cursor = new am4charts.XYCursor();
+	chart.cursor = new am4charts.XYCursor();
 
 	// add legend
 	chart.legend = new am4charts.Legend();
@@ -66,4 +66,4 @@ export function AreaChart() {
 			</div>
 		</>
 	);
-}
+};
