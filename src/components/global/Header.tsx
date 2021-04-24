@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../../assets/img/burt.png';
 
 export function Header(props: any) {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-primary">
 			<img src={logo} alt="" className="header-logo" />
-			<Link className="navbar-brand" to="/">
+			<NavLink className="navbar-brand" to="/">
 				{props.site}
-			</Link>
+			</NavLink>
 			<button
 				className="navbar-toggler"
 				type="button"
@@ -24,20 +24,20 @@ export function Header(props: any) {
 			<div className="collapse navbar-collapse" id="topNavBar">
 				<ul className="navbar-nav mr-auto">
 					<li className="nav-item">
-						<Link className="nav-link" to="/">
+						<NavLink className="nav-link" to="/" activeClassName="active">
 							Home
 							<span className="sr-only">(current)</span>
-						</Link>
+						</NavLink>
 					</li>
 					<li className="nav-item">
-						<Link className="nav-link" to="/about">
+						<NavLink className="nav-link" to="/about" activeClassName="active">
 							About
-						</Link>
+						</NavLink>
 					</li>
 					<li className="nav-item">
-						<Link className="nav-link" to="/charts">
+						<NavLink className="nav-link" to="/charts" activeClassName="active">
 							Charts
-						</Link>
+						</NavLink>
 					</li>
 				</ul>
 			</div>
