@@ -17,18 +17,10 @@ function App() {
 				<main>
 					<div className="container-fluid mt-4">
 						<Switch>
-							<Route exact path="/">
-								<Home />
-							</Route>
-							<Route path="/about">
-								<About />
-							</Route>
-							<Route path="/cards">
-								<Cards />
-							</Route>
-							<Route path="/charts">
-								<ChartsHomePage />
-							</Route>
+							<Route exact path="/" component={Home} />
+							<Route path="/about" component={About} />
+							<Route path="/cards" component={Cards} />
+							<Route path="/charts" component={ChartsHomePage} />
 						</Switch>
 					</div>
 				</main>
