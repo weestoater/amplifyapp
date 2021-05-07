@@ -24,7 +24,7 @@ export function Header(props: any) {
 			<div className="collapse navbar-collapse" id="topNavBar">
 				<ul className="navbar-nav mr-auto">
 					<li className="nav-item">
-						<NavLink className="nav-link" to="/" activeClassName="active">
+						<NavLink className="nav-link" to="/" activeClassName="active" exact={true}>
 							Home
 							<span className="sr-only">(current)</span>
 						</NavLink>
@@ -32,6 +32,11 @@ export function Header(props: any) {
 					<li className="nav-item">
 						<NavLink className="nav-link" to="/about" activeClassName="active">
 							About
+						</NavLink>
+					</li>
+					<li className="nav-item">
+						<NavLink className="nav-link" to="/cards" activeClassName="active">
+							Cards
 						</NavLink>
 					</li>
 					<li className="nav-item">

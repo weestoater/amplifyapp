@@ -6,6 +6,7 @@ import { Header } from './components/global/Header';
 import { Home } from './components/Home/Home';
 import { About } from './components/About/About';
 
+import { Cards } from './components/Cards/Cards';
 import { ChartsHomePage } from './components/Charts/Index';
 
 function App() {
@@ -16,15 +17,10 @@ function App() {
 				<main>
 					<div className="container-fluid mt-4">
 						<Switch>
-							<Route exact path="/">
-								<Home />
-							</Route>
-							<Route path="/about">
-								<About />
-							</Route>
-							<Route path="/charts">
-								<ChartsHomePage />
-							</Route>
+							<Route exact path="/" component={Home} />
+							<Route path="/about" component={About} />
+							<Route path="/cards" component={Cards} />
+							<Route path="/charts" component={ChartsHomePage} />
 						</Switch>
 					</div>
 				</main>
