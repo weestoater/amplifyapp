@@ -6,7 +6,7 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #4f4f4f;
+    background: #eee;
   }
   
   code {
@@ -17,7 +17,7 @@ body {
   /*    header  */
   .header-logo {
     height: 2.5rem !important;
-    margin-left: .5rem !important;
+    margin-left: 1.25rem !important;
     margin-right: 1.25rem !important;
     border: 3px solid #fff;
     border-bottom: 5px solid #fff;
@@ -30,6 +30,9 @@ body {
       display: block;
       height: calc(100vh - 100px);
 
+      .card {
+        box-shadow: 0 2px 8px #aaa;
+      }
 
       .charts-card {
         min-height: 50vh;
@@ -40,24 +43,5 @@ body {
         height: 40vh;
         margin: .5rem 0;
         border: 1px solid #e6e6e6;
-      }
-  }
-
-
-
-  /*    footer      */
-  .footer {
-      display: block;
-      width: 100%;
-      position: absolute;
-      bottom: 0;
-      color: whitesmoke !important;
-      padding-top: 1rem;
-      padding-bottom: .5rem;
-      font-size: .9rem;
-
-      a {
-        color: #fff;
-        text-decoration: underline;
       }
   }

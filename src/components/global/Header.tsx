@@ -4,7 +4,7 @@ import logo from '../../assets/img/burt.png';
 
 export function Header(props: any) {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<img src={logo} alt="" className="header-logo" />
 			<NavLink className="navbar-brand" to="/">
 				{props.site}

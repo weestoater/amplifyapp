@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Welcome } from '../components/Home/WelcomePost';
-import ChartsPost from '../components/Home/ChartsPost';
+import { Welcome } from '../components/home/WelcomePost';
+import ChartsPost from '../components/home/ChartsPost';
 
 export function Home() {
 	return (

@@ -4,8 +4,8 @@ function ChartsPost() {
 	return (
 		<div className="col-lg-3 col-md-6 col-sm-12">
 			<div className="card mb-3">
-				<div className="card-header bg-info text-white">
-					<i className="fa fa-line-chart text-white mr-2" /> amCharts 4.0
+				<div className="card-header">
+					<i className="fa fa-line-chart mr-4" /> amCharts 4.0
 				</div>
 				<div className="card-body">
 					<p>
