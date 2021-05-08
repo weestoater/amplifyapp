@@ -1,9 +1,12 @@
+import React, { FC } from 'react';
+
 type Person = {
 	first: string;
 	middle?: string;
 	last?: string;
 };
-export const Cards = () => {
+
+const Cards: FC = () => {
 	const names: Array<Person> = [
 		{ first: 'John', last: 'Lennon' },
 		{ first: 'Paul', last: 'McCartney' },
@@ -14,10 +17,10 @@ export const Cards = () => {
 	console.log('names :>> ', names);
 
 	return (
-		<div className="d-flex">
+		<div className="row">
 			{names.map((name, key) => {
 				return (
-					<div className="col m-1" key={key}>
+					<div className="col-lg-3 col-md-6 col-sm-12 mb-4" key={key}>
 						<div className="card">
 							<div className="card-header">
 								<h2>
@@ -32,3 +35,5 @@ export const Cards = () => {
 		</div>
 	);
 };
+
+export default Cards;

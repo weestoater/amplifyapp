@@ -1,15 +1,15 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import { Header } from './components/global/Header';
+import Header from './components/global/Header';
 
-import { Home } from './pages/Home';
-import { About } from './pages/About';
+import Home from './pages/Home';
+import About from './pages/About';
 
-import { Cards } from './pages/Cards';
-import { ChartsHomePage } from './pages/Charts';
+import Cards from './pages/Cards';
+import ChartsHomePage from './pages/Charts';
 
-function App() {
+const App: FC = () => {
 	return (
 		<Router>
 			<>
@@ -27,6 +27,6 @@ function App() {
 			</>
 		</Router>
 	);
-}
+};
 
 export default App;

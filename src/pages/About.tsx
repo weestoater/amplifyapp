@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { FC } from 'react';
 import moment from 'moment';
 
-export function About() {
+const About: FC = () => {
 	const thisYear = moment().format('YYYY');
 	return (
 		<div className="row">
@@ -59,4 +59,6 @@ export function About() {
 			</div> */}
 		</div>
 	);
-}
+};
+
+export default About;

@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../../assets/img/burt.png';
 
-export function Header(props: any) {
+const Header: FC = (props: any) => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<img src={logo} alt="" className="header-logo" />
@@ -48,4 +48,6 @@ export function Header(props: any) {
 			</div>
 		</nav>
 	);
-}
+};
+
+export default Header;
