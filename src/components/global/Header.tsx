@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../../assets/img/burt.png';
 
-const Header: FC = (props: any) => {
+const Header: FC = (props) => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<img src={logo} alt="" className="header-logo" />
@@ -22,11 +22,10 @@ const Header: FC = (props: any) => {
 			</button>
 
 			<div className="collapse navbar-collapse" id="topNavBar">
-				<ul className="navbar-nav mr-auto">
+				<ul className="navbar-nav me-auto mb-2 mb-lg-0">
 					<li className="nav-item">
 						<NavLink className="nav-link" to="/" activeClassName="active" exact={true}>
 							Home
-							<span className="sr-only">(current)</span>
 						</NavLink>
 					</li>
 					<li className="nav-item">

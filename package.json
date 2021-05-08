@@ -4,6 +4,8 @@
 	"private": true,
 	"dependencies": {
 		"@amcharts/amcharts4": "^4.10.17",
+		"@popperjs/core": "^2.9.2",
+		"@testing-library/dom": "^7.30.4",
 		"@testing-library/jest-dom": "^5.11.4",
 		"@testing-library/react": "^11.1.0",
 		"@testing-library/user-event": "^12.1.10",
@@ -14,10 +16,10 @@
 		"@types/react-router-dom": "^5.1.7",
 		"ag-grid-community": "^25.1.0",
 		"ag-grid-react": "^25.1.0",
-		"bootstrap": "^4.6.0",
+		"bootstrap": "^5.0.0",
+		"bootstrap-icons": "^1.4.1",
 		"eslint": "^7.15.0",
 		"eslint-config-prettier": "^7.0.0",
-		"font-awesome": "^4.7.0",
 		"moment": "^2.29.1",
 		"node-sass": "^5.0.0",
 		"prettier": "^2.2.1",
@@ -61,8 +63,6 @@
 		"@testing-library/cypress": "^7.0.5",
 		"@typescript-eslint/eslint-plugin": "^4.9.0",
 		"@typescript-eslint/parser": "^4.9.0",
-		"browser-sync": "^2.26.14",
-		"browser-sync-webpack-plugin": "^2.3.0",
 		"cypress": "^6.9.1"
 	}
 }
