@@ -1,6 +1,6 @@
 import React from 'react';
-import AreaChart from '../components/Charts/AreaChart';
-import PieChart from '../components/Charts/PieChart';
+import AreaChart from '../components/charts/AreaChart';
+import PieChart from '../components/charts/PieChart';
 
 export function ChartsHomePage() {
 	return (
