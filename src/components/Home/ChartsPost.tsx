@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { FC } from 'react';
 
-function ChartsPost() {
+const ChartsPost: FC = () => {
 	return (
 		<div className="col-lg-3 col-md-6 col-sm-12">
 			<div className="card mb-3">
 				<div className="card-header">
-					<i className="fa fa-line-chart mr-4" /> amCharts 4.0
+					<i className="fa fa-line-chart" /> amCharts 4.0
 				</div>
 				<div className="card-body">
 					<p>
