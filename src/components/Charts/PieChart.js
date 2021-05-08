@@ -1,21 +1,32 @@
-import React from 'react';
+import React, { FC, useLayoutEffect, useRef } from 'react';
 import * as am4core from '@amcharts/amcharts4/core';
 import * as am4charts from '@amcharts/amcharts4/charts';
 import am4themes_animated from '@amcharts/amcharts4/themes/animated';
 import am4themes_material from '@amcharts/amcharts4/themes/material';
+
 import goalsData from './goals-data.json';
 
-export const PieChart = () => {
-	am4core.useTheme(am4themes_animated);
-	am4core.useTheme(am4themes_material);
+am4core.useTheme(am4themes_animated);
+am4core.useTheme(am4themes_material);
 
-	const chart = am4core.create('piechart', am4charts.PieChart);
-	chart.data = goalsData;
-	chart.innerRadius = am4core.percent(55);
+const PieChart: FC = () => {
+	const chart = useRef(null);
 
-	const pieSeries = chart.series.push(new am4charts.PieSeries());
-	pieSeries.dataFields.value = 'goals';
-	pieSeries.dataFields.category = 'player';
+	useLayoutEffect(() => {
+		const tempChart = am4core.create('piechart', am4charts.PieChart);
+		tempChart.data = goalsData;
+		tempChart.innerRadius = am4core.percent(55);
+
+		const pieSeries = tempChart.series.push(new am4charts.PieSeries());
+		pieSeries.dataFields.value = 'goals';
+		pieSeries.dataFields.category = 'player';
+
+		chart.current = tempChart;
+
+		return () => {
+			tempChart.dispose();
+		};
+	}, []);
 
 	return (
 		<>
@@ -24,7 +35,7 @@ export const PieChart = () => {
 					<div className="card-header">Pie Chart</div>
 					<div className="card-body">
 						<h2>Motherwell F.C. Goal Scorers</h2>
-						{chart.data ? (
+						{chart ? (
 							<div id="piechart" />
 						) : (
 							<p className="text-center text-info">
@@ -39,3 +50,5 @@ export const PieChart = () => {
 		</>
 	);
 };
+
+export default PieChart;
