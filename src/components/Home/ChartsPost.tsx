@@ -5,7 +5,7 @@ const ChartsPost: FC = () => {
 		<div className="col-lg-3 col-md-6 col-sm-12">
 			<div className="card mb-3">
 				<div className="card-header">
-					<i className="fa fa-line-chart" /> amCharts 4.0
+					<i className="bi bi-bar-chart" /> amCharts 4.0
 				</div>
 				<div className="card-body">
 					<p>
@@ -22,6 +22,6 @@ const ChartsPost: FC = () => {
 			</div>
 		</div>
 	);
-}
+};
 
 export default ChartsPost;
