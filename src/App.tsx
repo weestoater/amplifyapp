@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import { Header } from './components/global/Header';
 
-import { Home } from './components/Home/Home';
-import { About } from './components/About/About';
+import { Home } from './pages/Home';
+import { About } from './pages/About';
 
-import { Cards } from './components/Cards/Cards';
-import { ChartsHomePage } from './components/Charts/Index';
+import { Cards } from './pages/Cards';
+import { ChartsHomePage } from './pages/Charts';
 
 function App() {
 	return (

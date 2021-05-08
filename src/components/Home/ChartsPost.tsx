@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Charts() {
+function ChartsPost() {
 	return (
 		<div className="col-lg-3 col-md-6 col-sm-12">
 			<div className="card mb-3">
@@ -24,4 +24,4 @@ function Charts() {
 	);
 }
 
-export default Charts;
+export default ChartsPost;
