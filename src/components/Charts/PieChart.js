@@ -32,7 +32,9 @@ const PieChart = () => {
 		<>
 			<div className="col-lg-6 col-md-12">
 				<div className="card charts-card">
-					<div className="card-header">Pie Chart</div>
+					<div className="card-header">
+						<i className="bi bi-pie-chart" /> Pie Chart
+					</div>
 					<div className="card-body">
 						<h2>Motherwell F.C. Goal Scorers</h2>
 						{chart ? (

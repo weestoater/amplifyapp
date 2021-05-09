@@ -59,7 +59,9 @@ const AreaChart = () => {
 		<>
 			<div className="col-lg-6 col-md-12 mb-4">
 				<div className="card charts-card">
-					<div className="card-header">Area Chart</div>
+					<div className="card-header">
+						<i className="bi bi-bar-chart" /> Area Chart
+					</div>
 					<div className="card-body">
 						<h2>Motherwell F.C. Match Scores</h2>
 						{chart ? (
