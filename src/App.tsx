@@ -5,8 +5,6 @@ import Header from './components/global/Header';
 
 import Home from './pages/Home';
 import About from './pages/About';
-
-import Cards from './pages/Cards';
 import ChartsHomePage from './pages/Charts';
 
 const App: FC = () => {
@@ -19,7 +17,6 @@ const App: FC = () => {
 						<Switch>
 							<Route exact path="/" component={Home} />
 							<Route path="/about" component={About} />
-							<Route path="/cards" component={Cards} />
 							<Route path="/charts" component={ChartsHomePage} />
 						</Switch>
 					</div>

@@ -1,8 +1,8 @@
-import React, { FC } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../../assets/img/burt.png';
 
-const Header: FC = (props) => {
+const Header = (props) => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<img src={logo} alt="" className="header-logo" />
@@ -31,11 +31,6 @@ const Header: FC = (props) => {
 					<li className="nav-item">
 						<NavLink className="nav-link" to="/about" activeClassName="active">
 							About
-						</NavLink>
-					</li>
-					<li className="nav-item">
-						<NavLink className="nav-link" to="/cards" activeClassName="active">
-							Cards
 						</NavLink>
 					</li>
 					<li className="nav-item">
