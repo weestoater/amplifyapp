@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e83b7f83.chunk.css",
+    "main.css": "/static/css/main.effbb037.chunk.css",
     "main.js": "/static/js/main.0cdcace9.chunk.js",
     "main.js.map": "/static/js/main.0cdcace9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09fa5993.js",
@@ -12,7 +12,7 @@
     "static/js/3.7f0d56a6.chunk.js.map": "/static/js/3.7f0d56a6.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.08c026ab.chunk.css.map": "/static/css/2.08c026ab.chunk.css.map",
-    "static/css/main.e83b7f83.chunk.css.map": "/static/css/main.e83b7f83.chunk.css.map",
+    "static/css/main.effbb037.chunk.css.map": "/static/css/main.effbb037.chunk.css.map",
     "static/js/2.d184862f.chunk.js.LICENSE.txt": "/static/js/2.d184862f.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/static/media/bootstrap-icons.0f69dcdb.woff",
     "static/media/burt.4e8468ff.png": "/static/media/burt.4e8468ff.png"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.09fa5993.js",
     "static/css/2.08c026ab.chunk.css",
     "static/js/2.d184862f.chunk.js",
-    "static/css/main.e83b7f83.chunk.css",
+    "static/css/main.effbb037.chunk.css",
     "static/js/main.0cdcace9.chunk.js"
   ]
 }
