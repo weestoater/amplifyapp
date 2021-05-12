@@ -4,8 +4,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/global/Header';
 
 import Home from './pages/Home';
-import About from './pages/About';
-import ChartsHomePage from './pages/Charts';
 
 const App: FC = () => {
 	return (
@@ -16,8 +14,6 @@ const App: FC = () => {
 					<div className="container-fluid mt-4">
 						<Switch>
 							<Route exact path="/" component={Home} />
-							<Route path="/about" component={About} />
-							<Route path="/charts" component={ChartsHomePage} />
 						</Switch>
 					</div>
 				</main>

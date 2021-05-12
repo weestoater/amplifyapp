@@ -3,8 +3,6 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
-		"@amcharts/amcharts4": "^4.10.17",
-		"@popperjs/core": "^2.9.2",
 		"@testing-library/dom": "^7.30.4",
 		"@testing-library/jest-dom": "^5.11.4",
 		"@testing-library/react": "^11.1.0",
