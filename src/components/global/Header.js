@@ -27,17 +27,7 @@ const Header = (props) => {
 						<NavLink className="nav-link" to="/" activeClassName="active" exact={true}>
 							Home
 						</NavLink>
-					</li>
-					<li className="nav-item">
-						<NavLink className="nav-link" to="/about" activeClassName="active">
-							About
-						</NavLink>
-					</li>
-					<li className="nav-item">
-						<NavLink className="nav-link" to="/charts" activeClassName="active">
-							Charts
-						</NavLink>
-					</li>
+					</li>					
 				</ul>
 			</div>
 		</nav>
